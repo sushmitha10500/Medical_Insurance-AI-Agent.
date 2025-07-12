@@ -58,3 +58,23 @@ The dataset contains information about individuals and their health-related insu
 5. The system prints the answer in the terminal
 6. Loop continues until the user types "exit"
 
+---
+
+User Types Question ─▶ ai_agent() ─▶ Summarize Dataset
+                            │
+                            ▼
+                Build Combined Prompt (context + question)
+                            │
+                            ▼
+                Send to OpenAI GPT-4o API (chat.completions)
+                            │
+                            ▼
+            GPT analyzes + generates intelligent answer
+                            │
+                            ▼
+               Return natural-language response to user
+                            │
+                            ▼
+           Loop again or exit if user types "exit"
+
+
